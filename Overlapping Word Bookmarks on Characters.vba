@@ -7,6 +7,11 @@
 '
 ' Author:       James Scurlock
 '-----------------------------------------------------------------------------------------------------------------------
+' INSTRUCTIONS:
+'-----------------------------------------------------------------------------------------------------------------------
+' 1. Add to Quick Access Toolbar (Maybe as new Group in Developer Tab, eventually): https://www.officetooltips.com/word_2016/tips/adding_commands_to_the_quick_access_toolbar.html 
+' 2. Open document with suspected problem and click the Quick Access Button setup for the Macro:
+'-----------------------------------------------------------------------------------------------------------------------
 Sub Show_Overlapping_Bookmark_Designations()
   Dim objBookmark As bookmark
   Dim objDoc As Document
